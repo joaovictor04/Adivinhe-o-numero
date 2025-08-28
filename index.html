@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luck game</title>
+    <link rel="stylesheet" href="./Css/main.css">
+    <link rel="stylesheet" href="./Css/areas.css">
+    <link rel="stylesheet" href="./Css/fonts.css">
+    <link rel="stylesheet" href="./Css/rodape.css">
+    <script src="./js/jogo.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="cabecalho_img" src="./Img/logo98x40px.png" alt="Logo">
+        </div>
+
+        <main class="principal">
+            <div class="areaCentral">
+                <div class="centro">
+                    <p class="msg_principal">Luck game</p>
+                </div>
+                <div class="meio">
+                    <div class="areaInput">
+                        <div>
+                            <p class="font_Input" id="texto_Input"></p>
+                        </div>
+                        <div class="areaInputValor">
+                            <input type="number" Placeholder="Informe um numero aqui" id="chutar">
+                        </div>
+                    </div>
+                </div>
+                <div class="resultado">
+                    <p class="resultado_valor" id="resultado_valor"></p>
+                </div>
+                <div class="botoes">
+                    <button onclick="chute()">Chute um valor</button>
+                    <button onclick="novoJogo()">Novo Game</button>
+                </div>
+            </div>
+        </main>
+        <footer class="rodape">
+
+        </footer>
+    </header>
+</body>
+</html>

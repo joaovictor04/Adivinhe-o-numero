@@ -1,0 +1,41 @@
+.areaCentral{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid rgb(18, 65, 112);
+    background-color: rgb(38, 102, 127);
+    border-radius: 40px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+}
+
+.centro {
+    width: 600px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.meio{
+    width: 600px;
+    height: 200px;
+}
+
+.areaInputValor{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.resultado{
+    width: 600px;
+    height: 100px;
+}
+
+.botoes{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
