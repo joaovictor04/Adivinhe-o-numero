@@ -45,7 +45,12 @@ input::placeholder{
 }
 
 .resultado_valor {
-    margin-top: 2%;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.qtdTentativa{
     font-size: 25px;
     text-align: center;
 }

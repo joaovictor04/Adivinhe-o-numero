@@ -30,7 +30,7 @@ function chute (){
         if(tentativas==0){
             exibirNaTela("#resultado_valor", `Você perdeu! O número secreto era ${numSorteado}\nIniciando novo jogo...`);
             exibirNaTela("#qtdTentativa","");
-            setTimeout(novoJogo,5000);
+            setTimeout(novoJogo,2000);
         }
         else{
             if (numChute > numSorteado){
